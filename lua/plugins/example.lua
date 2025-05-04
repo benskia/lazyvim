@@ -68,7 +68,6 @@ return {
     ---@class PluginLspOpts
     opts = {
       ---@type lspconfig.options
-      inlay_hints = { enabled = false },
       servers = {
         pyright = {},
         rust_analyzer = {},
